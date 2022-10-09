@@ -1,5 +1,5 @@
-// Jan Komorowski CS251 UIC Fall 2022
-// Project 2: Search Engine
+// Jan Komorowski - jankomorowski.01@gmail.com
+
 // program opens one of the given files (cplusplus.txt, stackoverflow.txt, tiny.txt, uiccs-news.txt, wiki-uni.txt)
 // then takes a Query Sentence from the user that searches for given terms
 // + in front of the word means that only the results that contain this word will be shown
@@ -8,6 +8,7 @@
 // CREATIVE COMPONENT : ban a website
 // after inputing command "ban x" the results will be modified, so there will be no urls matching the name of the given website (x)
 // simple test: for tiny.txt input "fish", then input "ban shoppinglist"
+
 #include <iostream>
 #include "search.h"
 using namespace std;
